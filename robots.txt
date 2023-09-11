@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hamedhemati.github.io/sitemap.xml
+Sitemap: https://HamedHemati.github.io/sitemap.xml
