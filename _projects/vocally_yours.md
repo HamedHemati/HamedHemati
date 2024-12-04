@@ -5,12 +5,10 @@ description: Neural Text-to-Speech
 img: assets/img/projects/vocally_yours/vocally_yours.png
 importance: 1
 category: work
-related_publications: #einstein1956investigations, einstein1950meaning
+related_publications: 
 ---
 
-Vocally Yours was a project funded by the Google News Initiative’s DNI Fund, designed to empower underrepresented communities by amplifying their voices. We trained and deployed high-fidelity neural text-to-speech models for German podcast generation.
-
-**Official Link:** [https://newsinitiative.withgoogle.com/dnifund/dni-projects/vocally-yours-round-5/](https://newsinitiative.withgoogle.com/dnifund/dni-projects/vocally-yours-round-5/)
+Vocally Yours was a project funded by the Google News Initiative’s DNI Fund, designed to empower underrepresented communities by amplifying their voices. In collaboration with Handelsbalt Media Group, we trained and deployed high-fidelity neural text-to-speech models for German podcast generation.
 
 ----
 
