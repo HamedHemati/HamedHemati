@@ -1,7 +1,6 @@
 ---
 layout: page
-title: Vocally Yours
-description: Neural Text-to-Speech
+title: Text-to-Speech for Podcast Generation
 img: assets/img/projects/vocally_yours/vocally_yours.png
 importance: 1
 category: work
