@@ -2,8 +2,7 @@
 layout: post
 title: Zero-Shot Classification and Retrieval Using GANs
 date: 2018-12-28
-tags: pytorch machine_learning
-categories: programming machine_learning 
+category: thesis 
 related_posts: true
 # featured: true
 img: assets/img/projects/zsl_gan/zsl_gan.png
@@ -46,7 +45,7 @@ I experimented with multiple GAN variations and ultimately designed two architec
 1. **FiLM-WGAN**: Incorporates Feature-wise Linear Modulation (FiLM) to condition the generator and discriminator on class embeddings.
 2. **ZS-WGAN**: A simpler, robust architecture inspired by the f-CLSWGAN model.
 
-#### FiLM-WGAN Formula
+#### FiLM-WGAN
 
 Feature-wise Linear Modulation applies affine transformations conditioned on the class embedding:
 
@@ -67,7 +66,7 @@ This module can be used to incorporate the conditional information more effectiv
 ----
 Traditional GANs are often unstable during training due to issues with mode collapse and convergence. Wasserstein GANs (WGANs) address these issues by introducing Wasserstein Distance, also known as Earth Mover’s Distance (EMD), as the metric for comparing distributions.
 
-### Wasserstein Distance Formula
+### Wasserstein Distance
 
 The Wasserstein Distance between two probability distributions $$ P_r $$ (real) and $$ P_g $$ (generated) is defined as:
 
@@ -90,7 +89,7 @@ Here, $$ f $$ is a K-Lipschitz continuous function learned by the discriminator,
 2. **No Mode Collapse**: WGANs provide meaningful gradients even when the generated and real distributions are far apart.
 3. **Improved Convergence**: By enforcing a 1-Lipschitz constraint via gradient penalty, training becomes smoother and more robust.
 
-### Gradient Penalty Formula
+### Gradient Penalty
 
 To enforce the Lipschitz constraint, WGAN-GP adds gradient penalty term below:
 
